@@ -4,9 +4,10 @@ const supertest = require('supertest');
 
 const { server } = require('../server.js');
 const mockClient = supertest(server);
-// let req = () => { };
-// let res = () => { status('500'); };
-// let next = () => { };
+
+let req = () => { };
+let res = () => { status('500'); };
+let next = () => { };
 
 describe('The Server', () => {
   it('responds with a 200 on a good route', () => {
@@ -16,6 +17,12 @@ describe('The Server', () => {
         expect(result.status).toEqual(200);
       });
   });
+
+  xit('sends Route A for /a', () => {
+    return mockClient.get('/a');
+
+  });
+
 
   it('responds with a 500 on an error', () => {
     return mockClient.get('/e')
@@ -30,5 +37,4 @@ describe('The Server', () => {
         expect(result.status).toEqual(404);
       });
   });
-
 });
