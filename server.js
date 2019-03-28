@@ -28,5 +28,10 @@ app.use( (err,req,res,next) => {
 // In order to run tests, we must export the express 'app' as part of an object
 // Additionally, because we're now a module and not a standalone app, we need to export a start() method
 // and let something else require and start us up with whatever port it wants
-const port = process.env.PORT || 8080;
-app.listen(port, () => console.log(`Listening on ${port}`));
+const port = process.env.PORT || 3000;
+const serverStart = (port) => app.listen(port, () => console.log(`Listening on ${port}`));
+
+module.exports = {
+  server: app,
+  start: serverStart,
+};
