@@ -17,6 +17,18 @@
 [6]: heroku-link/docs 
 
 ## LAB: Express - _Testing Practice_
+## Three Repos for this lab
+1. [Middleware, Routing, Modularization Practice](https://github.com/401-advanced-javascript-billybunn/lab-07-middleware)
+2. [Testing Practice](https://github.com/401-advanced-javascript-billybunn/lab-07-testing)
+3. [API Server]()
+
+## Grading notes
+* First repo should be complete
+* Had trouble with the other two. Especially testing.
+
+---
+
+## Project Name
 
 ### Author: Billy Bunn
 
