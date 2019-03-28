@@ -20,7 +20,7 @@
 ## Three Repos for this lab
 1. [Middleware, Routing, Modularization Practice](https://github.com/401-advanced-javascript-billybunn/lab-07-middleware)
 2. [Testing Practice](https://github.com/401-advanced-javascript-billybunn/lab-07-testing)
-3. [API Server]()
+3. API Server - _no time to start this yet_
 
 ## Grading notes
 * First repo should be complete
